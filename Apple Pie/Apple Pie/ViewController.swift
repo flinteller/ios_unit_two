@@ -4,7 +4,9 @@
 //
 //  Created by Flint on 3/8/19.
 //  Copyright © 2019 Flint. All rights reserved.
-//
+// Flint Eller
+// 3/8/19
+// This app will serve as a hangman-style game
 
 import UIKit
 
