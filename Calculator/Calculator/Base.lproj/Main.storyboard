@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxL-NE-0EM">
-                                                <rect key="frame" x="325" y="191" width="30" height="21"/>
+                                                <rect key="frame" x="275" y="191" width="71" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -33,10 +33,10 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="IxL-NE-0EM" firstAttribute="leading" secondItem="oz9-d8-Vht" secondAttribute="leading" constant="275" id="4HQ-iq-MOw"/>
                                             <constraint firstItem="IxL-NE-0EM" firstAttribute="top" secondItem="oz9-d8-Vht" secondAttribute="top" constant="191" id="KBz-LC-zpG"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IxL-NE-0EM" secondAttribute="trailing" constant="20" symbolic="YES" id="Xhv-Sn-0t0"/>
                                             <constraint firstAttribute="bottom" secondItem="IxL-NE-0EM" secondAttribute="bottom" constant="8" id="Zm9-mE-RXF"/>
-                                            <constraint firstItem="IxL-NE-0EM" firstAttribute="leading" secondItem="oz9-d8-Vht" secondAttribute="leading" constant="325" id="qiz-iB-st0"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aFS-bW-VDx">
